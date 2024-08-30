@@ -11,7 +11,7 @@ import (
 	"testing"
 )
 
-func TestAuthorizationService_Authorize(t *testing.T) {
+func TestAuthorizationService_AuthorizeCopier(t *testing.T) {
 	scenarios := []struct {
 		name          string
 		firstCopyErr  error
@@ -72,7 +72,7 @@ func TestAuthorizationService_Authorize(t *testing.T) {
 	}
 }
 
-func TestAuthorizationService_AuthorizeT(t *testing.T) {
+func TestAuthorizationService_AuthorizeCopies(t *testing.T) {
 	scenarios := []struct {
 		name               string
 		firstCopyErr       error
